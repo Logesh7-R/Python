@@ -42,4 +42,8 @@ stri = "hiiiii....! good MorniNg@@!"
 a = set(stri)
 print(a)
 #removes dublicate
- 
+
+lis = [1,2,3,4]
+print(lis,lis==sorted(lis))
+lis[0]=10
+print(lis,lis==sorted(lis))
